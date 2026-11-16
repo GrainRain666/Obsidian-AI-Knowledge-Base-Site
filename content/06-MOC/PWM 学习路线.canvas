@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"4faa8e9ca9603545","x":-180,"y":-160,"width":250,"height":60,"type":"file","file":"01-Concepts/PWM 占空比练习.md"},
+		{"id":"d1383f55484702bb","x":-480,"y":-160,"width":250,"height":60,"type":"text","text":"- **现象：LED 亮度可以调节**"},
+		{"id":"54168f21ab91d302","x":120,"y":-160,"width":250,"height":60,"type":"text","text":"- **实验：比较 25%、50%、75% 占空比时的亮度**"}
+	],
+	"edges":[
+		{"id":"635e75dce7eb045b","fromNode":"d1383f55484702bb","fromSide":"right","toNode":"4faa8e9ca9603545","toSide":"left"},
+		{"id":"cccd667c51d7596a","fromNode":"4faa8e9ca9603545","fromSide":"right","toNode":"54168f21ab91d302","toSide":"left"}
+	]
+}
