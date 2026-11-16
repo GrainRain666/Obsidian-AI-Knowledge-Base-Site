@@ -27,7 +27,7 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npx quartz build --concurrency 2
+      - run: node quartz/bootstrap-cli.mjs build --concurrency 2
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
